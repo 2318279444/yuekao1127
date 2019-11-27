@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bawei.View.MainActivity">
+
+
+    <com.bawei.custo.Custom
+        android:id="@+id/custom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </com.bawei.custo.Custom>
+
+    <com.bawei.Mylinner.Myview
+        android:id="@+id/mylinner"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+    </com.bawei.Mylinner.Myview>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
